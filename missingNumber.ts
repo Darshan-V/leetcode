@@ -3,7 +3,6 @@ function missingNumber(nums: number[]): number {
   const expectedSum = (n * (n + 1)) / 2
 
   const actualSum = nums.reduce((sum, num) => sum + num, 0)
-  console.log(expectedSum - actualSum)
   return expectedSum - actualSum
 }
 
